@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<body>
+    <h1>SIGN-UP FORM</h1>
+    <p>Fill out the required field</p>
+    <main>
+<form>
+    <fieldset>
+         
+            <label>
+                Name:<span style="color:red;" font-size="10px">*</span>
+                <input type="text" for="Name" placeholder="Enter your Full Name" name="Name" required/>
+            </label>
+    
+      
+    
+        <label>Email:
+            <span style="color:red;" font-size="10px">*</span>
+            <input type="email" for="email" placeholder="Enter your E-mail address" name="Name" required/>
+        </label>
+    
+      
+    
+        <label>
+            Create a username:<span style="color:red;" font-size="10px">*</span>
+            <input type="text" for="Username" placeholder="Choose a Username" name="Create a username" required/>
+        </label>
+    </div>
+    
+    
+        <label>
+            Create a password:<span style="color:red;" font-size="10px">*</span>
+            <input type="password" for="password" placeholder="Create a password" name="Create a password" required/>
+        </label>
+    
+    
+    
+        <label>
+            Confirm your password:<span style="color:red;" font-size="10px">*</span>
+               <input type="password" for="password" placeholder="Confirm your password" name="Create a password" pattern="[a-z0-9]{8,}"required/>
+           </label>
+
+          
+    
+        <label>
+            Date of birth:
+            <input type="date" for="Date of birth" name="Date of birth" required/>
+        </label>
+    
+    
+    
+        <label>
+            Phone number:
+            <input type="number" for="Phone number" placeholder="Enter your Phone number" name="Phone number" required/>
+        </label>
+        
+        <label>Upload a profile picture: <input type="file" name="file" /></label>
+    
+    
+        <label>Gender
+            <select name="gender">
+              <option value="">(select one)</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+    
+        <label>
+            <input class="box"type="checkbox" name="terms" required /> I accept the terms and conditions
+        </label>
+    
+
+    
+    
+    <input type= "submit" value="SIGN-UP"> 
+    </fieldset>
+</form>
+    </main>
+</body>
+</html>
